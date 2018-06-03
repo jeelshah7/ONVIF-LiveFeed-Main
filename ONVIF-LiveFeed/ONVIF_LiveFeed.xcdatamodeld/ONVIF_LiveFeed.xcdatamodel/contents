@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Camera" representedClassName="Camera" syncable="YES" codeGenerationType="class">
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelno" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="portNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LocationMO" inverseName="camera" inverseEntity="LocationMO" syncable="YES"/>
+    </entity>
+    <entity name="LocationMO" representedClassName="LocationMO" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="camera" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Camera" inverseName="location" inverseEntity="Camera" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Camera" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="LocationMO" positionX="297" positionY="108" width="128" height="90"/>
+    </elements>
+</model>

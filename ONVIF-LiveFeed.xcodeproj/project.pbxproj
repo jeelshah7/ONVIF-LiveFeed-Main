@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B16BD0D20B94D9B0045CD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16BD0C20B94D9B0045CD8D /* AppDelegate.swift */; };
+		0B16BD0F20B94D9B0045CD8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16BD0E20B94D9B0045CD8D /* HomeViewController.swift */; };
+		0B16BD1220B94D9B0045CD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B16BD1020B94D9B0045CD8D /* Main.storyboard */; };
+		0B16BD1520B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B16BD1320B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodeld */; };
+		0B16BD1A20B94DA80045CD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B16BD1820B94DA80045CD8D /* LaunchScreen.storyboard */; };
+		0B16BD2520B964F60045CD8D /* AddCameraViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16BD2420B964F60045CD8D /* AddCameraViewControllerTableViewController.swift */; };
+		0B16BD2720B978B40045CD8D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16BD2620B978B40045CD8D /* HomeTableViewCell.swift */; };
+		0B16BD2920B9E0080045CD8D /* AddLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16BD2820B9E0080045CD8D /* AddLocationTableViewController.swift */; };
+		0B4A57FF20BE6EE700E0A075 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A57FE20BE6EE700E0A075 /* CameraViewController.swift */; };
+		0B4A580120BE6F7B00E0A075 /* CameraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A580020BE6F7B00E0A075 /* CameraTableViewCell.swift */; };
+		0BA7AFF520C044EB00C4B9DB /* Comfortaa Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AFF420C044EB00C4B9DB /* Comfortaa Light.ttf */; };
+		0BA7AFF920C0881100C4B9DB /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7AFF820C0881100C4B9DB /* UIViewExt.swift */; };
+		0BA7AFFA20C0918300C4B9DB /* Comfortaa Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AFF620C0459600C4B9DB /* Comfortaa Bold.ttf */; };
+		0BA7AFFC20C0A40A00C4B9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA7AFFB20C0A40A00C4B9DB /* Assets.xcassets */; };
+		0BADBE9720BFEE0B00DCF9D8 /* LiveCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADBE9620BFEE0B00DCF9D8 /* LiveCameraViewController.swift */; };
+		0BB1F47120C17AB3004EF90B /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1F47020C17AB3004EF90B /* RoundImageView.swift */; };
+		0BB1F47320C18E71004EF90B /* EditCameraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1F47220C18E71004EF90B /* EditCameraTableViewController.swift */; };
+		BDC14C59F317B59280AB96A6 /* Pods_ONVIF_LiveFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975BF6D37161BC36F736D7EB /* Pods_ONVIF_LiveFeed.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B16BD0920B94D9B0045CD8D /* ONVIF-LiveFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ONVIF-LiveFeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B16BD0C20B94D9B0045CD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B16BD0E20B94D9B0045CD8D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0B16BD1120B94D9B0045CD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B16BD1420B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ONVIF_LiveFeed.xcdatamodel; sourceTree = "<group>"; };
+		0B16BD1920B94DA80045CD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B16BD1B20B94DA80045CD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B16BD2420B964F60045CD8D /* AddCameraViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCameraViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		0B16BD2620B978B40045CD8D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		0B16BD2820B9E0080045CD8D /* AddLocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationTableViewController.swift; sourceTree = "<group>"; };
+		0B4A57FE20BE6EE700E0A075 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		0B4A580020BE6F7B00E0A075 /* CameraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTableViewCell.swift; sourceTree = "<group>"; };
+		0BA7AFF420C044EB00C4B9DB /* Comfortaa Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa Light.ttf"; sourceTree = "<group>"; };
+		0BA7AFF620C0459600C4B9DB /* Comfortaa Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa Bold.ttf"; sourceTree = "<group>"; };
+		0BA7AFF820C0881100C4B9DB /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0BA7AFFB20C0A40A00C4B9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BADBE9620BFEE0B00DCF9D8 /* LiveCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraViewController.swift; sourceTree = "<group>"; };
+		0BADBE9820BFF66E00DCF9D8 /* Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		0BB1F47020C17AB3004EF90B /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		0BB1F47220C18E71004EF90B /* EditCameraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCameraTableViewController.swift; sourceTree = "<group>"; };
+		975BF6D37161BC36F736D7EB /* Pods_ONVIF_LiveFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ONVIF_LiveFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FB1B497B1BC485508CCEB1 /* Pods-ONVIF-LiveFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONVIF-LiveFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONVIF-LiveFeed/Pods-ONVIF-LiveFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		DB92E7BC3E79AD9C761E1D80 /* Pods-ONVIF-LiveFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONVIF-LiveFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONVIF-LiveFeed/Pods-ONVIF-LiveFeed.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B16BD0620B94D9B0045CD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC14C59F317B59280AB96A6 /* Pods_ONVIF_LiveFeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B16BD0020B94D9A0045CD8D = {
+			isa = PBXGroup;
+			children = (
+				0BA7AFF720C0873300C4B9DB /* Extensions */,
+				0B16BD2320B9627D0045CD8D /* Controller */,
+				0B16BD2220B962740045CD8D /* View */,
+				0B16BD2120B962690045CD8D /* Model */,
+				0B16BD0B20B94D9B0045CD8D /* ONVIF-LiveFeed */,
+				0B16BD0A20B94D9B0045CD8D /* Products */,
+				A84DA07B974A435BFFD5BAA8 /* Pods */,
+				3E7E4C0843C202155256D33A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B16BD0A20B94D9B0045CD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B16BD0920B94D9B0045CD8D /* ONVIF-LiveFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B16BD0B20B94D9B0045CD8D /* ONVIF-LiveFeed */ = {
+			isa = PBXGroup;
+			children = (
+				0B16BD0C20B94D9B0045CD8D /* AppDelegate.swift */,
+				0B16BD1020B94D9B0045CD8D /* Main.storyboard */,
+				0BA7AFFB20C0A40A00C4B9DB /* Assets.xcassets */,
+				0B16BD1820B94DA80045CD8D /* LaunchScreen.storyboard */,
+				0B16BD1B20B94DA80045CD8D /* Info.plist */,
+				0B16BD1320B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodeld */,
+				0BADBE9820BFF66E00DCF9D8 /* Stream.h */,
+			);
+			path = "ONVIF-LiveFeed";
+			sourceTree = "<group>";
+		};
+		0B16BD2120B962690045CD8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B16BD2620B978B40045CD8D /* HomeTableViewCell.swift */,
+				0B4A580020BE6F7B00E0A075 /* CameraTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B16BD2220B962740045CD8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1F47020C17AB3004EF90B /* RoundImageView.swift */,
+				0BA7AFF420C044EB00C4B9DB /* Comfortaa Light.ttf */,
+				0BA7AFF620C0459600C4B9DB /* Comfortaa Bold.ttf */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B16BD2320B9627D0045CD8D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B16BD0E20B94D9B0045CD8D /* HomeViewController.swift */,
+				0B16BD2420B964F60045CD8D /* AddCameraViewControllerTableViewController.swift */,
+				0B16BD2820B9E0080045CD8D /* AddLocationTableViewController.swift */,
+				0B4A57FE20BE6EE700E0A075 /* CameraViewController.swift */,
+				0BADBE9620BFEE0B00DCF9D8 /* LiveCameraViewController.swift */,
+				0BB1F47220C18E71004EF90B /* EditCameraTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BA7AFF720C0873300C4B9DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0BA7AFF820C0881100C4B9DB /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E7E4C0843C202155256D33A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				975BF6D37161BC36F736D7EB /* Pods_ONVIF_LiveFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A84DA07B974A435BFFD5BAA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1FB1B497B1BC485508CCEB1 /* Pods-ONVIF-LiveFeed.debug.xcconfig */,
+				DB92E7BC3E79AD9C761E1D80 /* Pods-ONVIF-LiveFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B16BD0820B94D9B0045CD8D /* ONVIF-LiveFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B16BD1E20B94DA80045CD8D /* Build configuration list for PBXNativeTarget "ONVIF-LiveFeed" */;
+			buildPhases = (
+				A8BC389F4DFB742ECB025199 /* [CP] Check Pods Manifest.lock */,
+				0B16BD0520B94D9B0045CD8D /* Sources */,
+				0B16BD0620B94D9B0045CD8D /* Frameworks */,
+				0B16BD0720B94D9B0045CD8D /* Resources */,
+				D3C4BCD7F9DF914768AA02C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ONVIF-LiveFeed";
+			productName = "ONVIF-LiveFeed";
+			productReference = 0B16BD0920B94D9B0045CD8D /* ONVIF-LiveFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B16BD0120B94D9A0045CD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jeel Shah";
+				TargetAttributes = {
+					0B16BD0820B94D9B0045CD8D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B16BD0420B94D9A0045CD8D /* Build configuration list for PBXProject "ONVIF-LiveFeed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B16BD0020B94D9A0045CD8D;
+			productRefGroup = 0B16BD0A20B94D9B0045CD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B16BD0820B94D9B0045CD8D /* ONVIF-LiveFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B16BD0720B94D9B0045CD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA7AFFA20C0918300C4B9DB /* Comfortaa Bold.ttf in Resources */,
+				0B16BD1A20B94DA80045CD8D /* LaunchScreen.storyboard in Resources */,
+				0B16BD1220B94D9B0045CD8D /* Main.storyboard in Resources */,
+				0BA7AFF520C044EB00C4B9DB /* Comfortaa Light.ttf in Resources */,
+				0BA7AFFC20C0A40A00C4B9DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8BC389F4DFB742ECB025199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ONVIF-LiveFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C4BCD7F9DF914768AA02C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ONVIF-LiveFeed/Pods-ONVIF-LiveFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ONVIFCamera/ONVIFCamera.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ONVIFCamera.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ONVIF-LiveFeed/Pods-ONVIF-LiveFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B16BD0520B94D9B0045CD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4A580120BE6F7B00E0A075 /* CameraTableViewCell.swift in Sources */,
+				0B16BD2720B978B40045CD8D /* HomeTableViewCell.swift in Sources */,
+				0BB1F47120C17AB3004EF90B /* RoundImageView.swift in Sources */,
+				0BA7AFF920C0881100C4B9DB /* UIViewExt.swift in Sources */,
+				0B16BD1520B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodeld in Sources */,
+				0BADBE9720BFEE0B00DCF9D8 /* LiveCameraViewController.swift in Sources */,
+				0B16BD2920B9E0080045CD8D /* AddLocationTableViewController.swift in Sources */,
+				0B16BD0F20B94D9B0045CD8D /* HomeViewController.swift in Sources */,
+				0BB1F47320C18E71004EF90B /* EditCameraTableViewController.swift in Sources */,
+				0B4A57FF20BE6EE700E0A075 /* CameraViewController.swift in Sources */,
+				0B16BD0D20B94D9B0045CD8D /* AppDelegate.swift in Sources */,
+				0B16BD2520B964F60045CD8D /* AddCameraViewControllerTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B16BD1020B94D9B0045CD8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B16BD1120B94D9B0045CD8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B16BD1820B94DA80045CD8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B16BD1920B94DA80045CD8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B16BD1C20B94DA80045CD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B16BD1D20B94DA80045CD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B16BD1F20B94DA80045CD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FB1B497B1BC485508CCEB1 /* Pods-ONVIF-LiveFeed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U5ZJ5FG22;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ONVIF-LiveFeed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onvif.ONVIF-LiveFeed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ONVIF-LiveFeed/Stream.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0B16BD2020B94DA80045CD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB92E7BC3E79AD9C761E1D80 /* Pods-ONVIF-LiveFeed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U5ZJ5FG22;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ONVIF-LiveFeed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onvif.ONVIF-LiveFeed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ONVIF-LiveFeed/Stream.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B16BD0420B94D9A0045CD8D /* Build configuration list for PBXProject "ONVIF-LiveFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B16BD1C20B94DA80045CD8D /* Debug */,
+				0B16BD1D20B94DA80045CD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B16BD1E20B94DA80045CD8D /* Build configuration list for PBXNativeTarget "ONVIF-LiveFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B16BD1F20B94DA80045CD8D /* Debug */,
+				0B16BD2020B94DA80045CD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B16BD1320B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B16BD1420B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodel */,
+			);
+			currentVersion = 0B16BD1420B94D9B0045CD8D /* ONVIF_LiveFeed.xcdatamodel */;
+			path = ONVIF_LiveFeed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0B16BD0120B94D9A0045CD8D /* Project object */;
+}

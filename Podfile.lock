@@ -1,0 +1,24 @@
+PODS:
+  - MobileVLCKit (3.1.0)
+  - ONVIFCamera (1.1.7)
+  - RevealingSplashView (0.5.0)
+
+DEPENDENCIES:
+  - MobileVLCKit
+  - ONVIFCamera
+  - RevealingSplashView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MobileVLCKit
+    - ONVIFCamera
+    - RevealingSplashView
+
+SPEC CHECKSUMS:
+  MobileVLCKit: 4e55792b03c99429c9f4716aa44e685f65b3d178
+  ONVIFCamera: 80bcd1e8af82c1429bbd3aca786507adbdb647ec
+  RevealingSplashView: 0794eecad3a8983ac11a1fe474e9a9b51b926780
+
+PODFILE CHECKSUM: 8fba655d7d3a49e359886e30f69fb31c1513d8cf
+
+COCOAPODS: 1.5.2
